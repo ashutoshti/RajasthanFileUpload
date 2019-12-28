@@ -1,3 +1,5 @@
+package com.manikaran;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -10,7 +12,7 @@ public class utilities extends FileUpload {
 
     public static void screenshot() {
         try {
-            File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            File source = ((TakesScreenshot) FileUpload.driver).getScreenshotAs(OutputType.FILE);
             String filename = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss'.png'").format(new Date());
             String currentDir = System.getProperty("user.dir");
             File Destination = new File(currentDir + "/screenshots/" + filename);

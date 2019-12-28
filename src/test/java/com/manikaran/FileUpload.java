@@ -1,3 +1,6 @@
+package com.manikaran;
+
+import com.manikaran.utilities;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -130,7 +133,6 @@ public class FileUpload {
             }
         }
     }
-
 
     private void selectPssName(String pssName) {
         Select pssDropDownName = new Select(driver.findElement(By.xpath("//select[@id='selectedGenco']")));
