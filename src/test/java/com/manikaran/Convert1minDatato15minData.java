@@ -9,7 +9,7 @@ import java.util.Map;
 public class Convert1minDatato15minData {
 
     static File masterTimeBlock = new File(System.getProperty("user.dir") + "/src/test/DataFiles/MasterTimeBlock.txt"); // txt file path
-    static File scadaFile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/winddataawk.csv"); // csv file address
+    static File scadaFile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/Charanka_GACL2.csv"); // csv file address
 
     static Double[] checkActualValue = null;
     static ExcelApi excelApi;
@@ -18,7 +18,7 @@ public class Convert1minDatato15minData {
     static String temp;
     static File outputfile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/ConvertedFile.xlsx");
     static final int GENERTOR_START_FROM_INDEX = 2;
-    static final int GENERTOR_END_INDEX = 80;
+    static final int GENERTOR_END_INDEX = 24;
 
     public static void main(String[] args) {
         averageOfCell();
@@ -56,13 +56,13 @@ public class Convert1minDatato15minData {
         for (int k = GENERTOR_START_FROM_INDEX; k <= GENERTOR_END_INDEX; k++) {
             Map<Integer, Calculation> compareHashMap = new HashMap<Integer, Calculation>();
             int i = 0;
-            System.out.println("Value of k " + k);
+            System.out.println("Value of Column " + k);
             try {
                 BufferedReader brScada = new BufferedReader(new FileReader(scadaFile));
                 while ((stScada = brScada.readLine()) != null) {
                     // System.out.println(stScada);
                     i++;
-                    String str[] = stScada.split(" ");
+                    String str[] = stScada.split(",");// Seprate your main CSV file with special char
                     String timeSc = str[0];
                     Float scada = Float.valueOf(str[k]);
                     if (masterHashMap.containsKey(timeSc.trim())) {

@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb3d1186-8efa-4a90-a372-808887e84fe1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/ConvertedFile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/MasterTimeBlock.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/winddataawk.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilties/ExcelApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1minDatato15minData.java" afterDir="false" />
+    <list default="true" id="bb3d1186-8efa-4a90-a372-808887e84fe1" name="Default Changelist" comment="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine">
+      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/Charanka_GACL2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Properties/ConfigurationDetails" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Properties/ConfigurationDetails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/FileUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/utilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FileUpload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DataFiles/ConvertedFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DataFiles/ConvertedFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1minDatato15minData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1minDatato15minData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/DataFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,17 +49,17 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/DataFiles" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/manikaran" />
-      <recent name="$PROJECT_DIR$/src/test/Utilities" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/DataFiles" />
       <recent name="$PROJECT_DIR$/src/test/DataFiles/RajasthanFileUpload.xlsx" />
       <recent name="$PROJECT_DIR$/src/test/java/com/manikaran" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/Browser Driver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/DataFiles" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/manikaran" />
+      <recent name="$PROJECT_DIR$/src/test/Utilities" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Convert1minDatato15minData">
@@ -177,6 +167,14 @@
       <option name="presentableId" value="Default" />
       <updated>1576913953834</updated>
     </task>
+    <task id="LOCAL-00001" summary="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine">
+      <created>1577550386581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577550386581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,14 +190,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="320" y="92" key="#Notifications" timestamp="1577550151567">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="320" y="92" key="#Notifications/0.23.1440.807@0.23.1440.807" timestamp="1577550151567" />
-    <state x="320" y="94" key="#Project_Structure" timestamp="1577545040569">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="320" y="94" key="#Project_Structure" timestamp="1577856718382">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
+    <state x="320" y="94" key="#Project_Structure/0.23.1440.807@0.23.1440.807" timestamp="1577856718382" />
     <state x="320" y="94" key="#Project_Structure/0.23.1440.811@0.23.1440.811" timestamp="1577545040569" />
     <state x="408" y="163" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577531328276">
       <screen x="0" y="23" width="1440" height="811" />
@@ -209,42 +212,52 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="281" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.811@0.23.1440.811" timestamp="1577532075412" />
-    <state x="114" y="29" key="CommitChangelistDialog2" timestamp="1577550356534">
+    <state x="114" y="23" width="1212" height="807" key="CommitChangelistDialog2" timestamp="1577856649834">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state x="114" y="29" key="CommitChangelistDialog2/0.23.1440.807@0.23.1440.807" timestamp="1577550356534" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1577550356584">
+    <state x="114" y="23" width="1212" height="807" key="CommitChangelistDialog2/0.23.1440.807@0.23.1440.807" timestamp="1577856649834" />
+    <state x="114" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1577755809867" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1577812524432">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1577550356584" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1577550045606" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1577812524432" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1577755814252" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577549026614" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1577550356583">
+    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1577812524431">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1577550356583" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1577550045604" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1577812524431" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1577755814251" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577549026613" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1577550356582">
+    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1577812524431">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1577550356582" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1577550045602" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1577812524431" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1577755814250" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577549026613" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1577550356583">
+    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1577812524432">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1577550356583" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1577550045605" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1577812524432" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1577755814252" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577549026614" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1577545014134">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1577545014134" />
-    <state x="413" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1577549117365">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1577550394697">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state x="413" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1577549117365" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1577550394697" />
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1577805789494">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1577805789494" />
+    <state x="413" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1577667062594" />
+    <state x="150" y="50" key="new project wizard" timestamp="1577806322502">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="150" y="50" key="new project wizard/0.23.1440.808@0.23.1440.808" timestamp="1577806322502" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RajasthanFileUpload$FileUpload.ic" NAME="FileUpload Coverage Results" MODIFIED="1576979970947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
