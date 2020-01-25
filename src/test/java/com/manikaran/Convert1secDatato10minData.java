@@ -6,19 +6,19 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Convert1minDatato15minData {
+class Convert1secDatato10minData {
 
-    static File masterTimeBlock = new File(System.getProperty("user.dir") + "/src/test/DataFiles/MasterTimeBlock.txt"); // txt file path
-    static File scadaFile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/Morris-conversion.csv"); // csv file address
+    static File masterTimeBlock = new File(System.getProperty("user.dir") + "/src/test/DataFiles/Master1secto10min.txt"); // txt file path
+    static File scadaFile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/DataFileVarsha.csv"); // csv file address
 
     static Double[] checkActualValue = null;
     static ExcelApi excelApi;
     static String excelCellTimeValue;
     static Float excelCellValue;
     static String temp;
-    static File outputfile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/ConvertedFile.xlsx");
-    static final int GENERTOR_START_FROM_INDEX = 2;
-    static final int GENERTOR_END_INDEX = 10;
+    static File outputfile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/ConvertedFileVarsha.xlsx");
+    static final int GENERTOR_START_FROM_INDEX = 3;
+    static final int GENERTOR_END_INDEX = 5;
 
     public static void main(String[] args) {
         averageOfCell();
@@ -54,7 +54,7 @@ public class Convert1minDatato15minData {
         }
         // System.out.println("============= Master data map================");
         for (int k = GENERTOR_START_FROM_INDEX; k <= GENERTOR_END_INDEX; k++) {
-            Map<Integer, Calculation> compareHashMap = new HashMap<Integer, Calculation>();
+            Map<Integer, Calculation1secTo10min> compareHashMap = new HashMap<Integer, Calculation1secTo10min>();
             int i = 0;
             System.out.println("Value of Column " + k);
             try {
@@ -68,11 +68,11 @@ public class Convert1minDatato15minData {
                     if (masterHashMap.containsKey(timeSc.trim())) {
                         Integer blockNo = masterHashMap.get(timeSc.trim());
                         if (compareHashMap.containsKey(blockNo)) {
-                            Calculation cal = compareHashMap.get(blockNo);
+                            Calculation1secTo10min cal = compareHashMap.get(blockNo);
                             cal.setTotal(cal.getTotal() + scada);
                             cal.setNoOfOccurance(cal.getNoOfOccurance() + 1);
                         } else {
-                            Calculation cal2 = new Calculation();
+                            Calculation1secTo10min cal2 = new Calculation1secTo10min();
                             cal2.setNoOfOccurance(1);
                             cal2.setTotal(scada);
                             compareHashMap.put(blockNo, cal2);
@@ -84,11 +84,11 @@ public class Convert1minDatato15minData {
                 System.out.println(e);
             }
 
-            for (Map.Entry<Integer, Calculation> entry : compareHashMap.entrySet()) {
+            for (Map.Entry<Integer, Calculation1secTo10min> entry : compareHashMap.entrySet()) {
                 Integer blk = entry.getKey();
-                Calculation value = entry.getValue();
+                Calculation1secTo10min value = entry.getValue();
                 System.out.println(
-                        "Average By 15 min Per Block " + blk + " " + value.getTotal() / value.getNoOfOccurance());
+                        "Average By 10 min Per Block " + blk + " " + value.getTotal() / value.getNoOfOccurance());
                 excelapi.setCellData("Sheet1", k, blk, String.valueOf(value.getTotal() / value.getNoOfOccurance()));
 
             }
@@ -97,7 +97,7 @@ public class Convert1minDatato15minData {
     }
 }
 
-class Calculation {
+class Calculation1secTo10min {
     private Float total;
     private Integer noOfOccurance;
 

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb3d1186-8efa-4a90-a372-808887e84fe1" name="Default Changelist" comment="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine">
-      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/Charanka_GACL2.csv" afterDir="false" />
+    <list default="true" id="bb3d1186-8efa-4a90-a372-808887e84fe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/DataFileVarsha.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/Master1secto10min.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/Morris-conversion.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DataFiles/NewFile.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1secDatato10minData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/DataFiles/ConvertedFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DataFiles/ConvertedFile.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1minDatato15minData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/manikaran/Convert1minDatato15minData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/manikaran/Convert1minDatato15minData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/manikaran/Convert1minDatato15minData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +46,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/manikaran" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,14 +62,27 @@
       <recent name="$PROJECT_DIR$/src/test/Browser Driver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/DataFiles" />
       <recent name="$PROJECT_DIR$/src/test/java/com/manikaran" />
+      <recent name="$PROJECT_DIR$/src/test/DataFiles" />
       <recent name="$PROJECT_DIR$/src/test/Utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Convert1minDatato15minData">
+  <component name="RunManager" selected="Application.Convert1secDatato10minData">
     <configuration name="Convert1minDatato15minData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manikaran.Convert1minDatato15minData" />
+      <module name="RajasthanFileUpload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manikaran.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Convert1secDatato10minData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manikaran.Convert1secDatato10minData" />
       <module name="RajasthanFileUpload" />
       <extension name="coverage">
         <pattern>
@@ -122,25 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUpload.openWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RajasthanFileUpload" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.manikaran.FileUpload" />
-      <option name="METHOD_NAME" value="openWebsite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Convert1secDatato10minData" />
         <item itemvalue="Application.Convert1minDatato15minData" />
         <item itemvalue="TestNG.FileUpload.fileUploadFunctionality" />
         <item itemvalue="TestNG.FileUpload" />
         <item itemvalue="TestNG.FileUpload.fileUploadPage" />
-        <item itemvalue="TestNG.FileUpload.openWebsite" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577550386581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Comment in Convert1minDatato15minData.java File">
+      <created>1577856737443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577856737443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataFiles Folder in which ConvertedFile.xlsx, MasterTimeBlock.txt and winddataawk.csv(which is a format of file)&#10;in com.manikaran package Convert1minDatato15minData.java which is working fine" />
+    <MESSAGE value="Add Comment in Convert1minDatato15minData.java File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Comment in Convert1minDatato15minData.java File" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="92" key="#Notifications" timestamp="1577550151567">
@@ -212,47 +226,47 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="281" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.811@0.23.1440.811" timestamp="1577532075412" />
-    <state x="114" y="23" width="1212" height="807" key="CommitChangelistDialog2" timestamp="1577856737007">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="114" y="23" width="1212" height="807" key="CommitChangelistDialog2" timestamp="1577857628513">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="114" y="23" width="1212" height="807" key="CommitChangelistDialog2/0.23.1440.807@0.23.1440.807" timestamp="1577856737007" />
-    <state x="114" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1577755809867" />
-    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1577812524432">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state x="114" y="23" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1577857628513" />
+    <state width="1397" height="207" key="GridCell.Tab.0.bottom" timestamp="1579914554621">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1577812524432" />
     <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1577755814252" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577549026614" />
-    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1577812524431">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1397" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1579914554621" />
+    <state width="1397" height="207" key="GridCell.Tab.0.center" timestamp="1579914554619">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1397" height="206" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1577812524431" />
     <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1577755814251" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577549026613" />
-    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1577812524431">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1397" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1579914554619" />
+    <state width="1397" height="207" key="GridCell.Tab.0.left" timestamp="1579914554618">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1397" height="206" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1577812524431" />
     <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1577755814250" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577549026613" />
-    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1577812524432">
-      <screen x="0" y="23" width="1440" height="807" />
+    <state width="1397" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1579914554618" />
+    <state width="1397" height="207" key="GridCell.Tab.0.right" timestamp="1579914554620">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1397" height="206" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1577812524432" />
     <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1577755814252" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577549026614" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1577545014134">
+    <state width="1397" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1579914554620" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1579914167668">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1577545014134" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1579914167668" />
     <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1577856741821">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.807@0.23.1440.807" timestamp="1577856741821" />
-    <state x="413" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1577805789494">
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1578066977375">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="413" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1577805789494" />
+    <state x="413" y="260" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1578066977375" />
     <state x="413" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1577667062594" />
     <state x="150" y="50" key="new project wizard" timestamp="1577806322502">
       <screen x="0" y="23" width="1440" height="808" />
