@@ -18,7 +18,7 @@ class Convert1secDatato10minData {
     static String temp;
     static File outputfile = new File(System.getProperty("user.dir") + "/src/test/DataFiles/ConvertedFileVarsha.xlsx");
     static final int GENERTOR_START_FROM_INDEX = 3;
-    static final int GENERTOR_END_INDEX = 5;
+    static final int GENERTOR_END_INDEX = 6;
 
     public static void main(String[] args) {
         averageOfCell();
@@ -42,7 +42,7 @@ class Convert1secDatato10minData {
         String st, stScada;
         try {
             while ((st = br.readLine()) != null) {
-                String str[] = st.split(",");
+                String[] str = st.split(",");
                 masterHashMap.put(str[0], Integer.valueOf(str[1]));
             }
         } catch (NumberFormatException e1) {
@@ -60,9 +60,9 @@ class Convert1secDatato10minData {
             try {
                 BufferedReader brScada = new BufferedReader(new FileReader(scadaFile));
                 while ((stScada = brScada.readLine()) != null) {
-                    // System.out.println(stScada);
+                    //System.out.println(stScada);
                     i++;
-                    String str[] = stScada.split(",");// Seprate your main CSV file with special char
+                    String[] str = stScada.split(",");// Seprate your main CSV file with special char
                     String timeSc = str[0];
                     Float scada = Float.valueOf(str[k]);
                     if (masterHashMap.containsKey(timeSc.trim())) {

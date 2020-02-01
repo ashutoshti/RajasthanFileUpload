@@ -33,7 +33,7 @@ public class ExcelApi
 	
 	public ExcelApi(File excelfilepath) throws Exception
 	{
-		this.excelfilepath=excelfilepath;
+		ExcelApi.excelfilepath =excelfilepath;
 		fis=new FileInputStream(excelfilepath);
 		workbook =new XSSFWorkbook(fis);
 		fis.close();
@@ -256,7 +256,7 @@ public class ExcelApi
 			BufferedReader br = new BufferedReader(new FileReader(csvFileAddress));
 			while ((currentLine = br.readLine()) != null) {
 				//String str[] = currentLine.split(",");
-				String str[] = currentLine.split("\\t|,|;|\\.|\\?|!|-|:|@|\\[|\\]|\\(|\\)|\\{|\\}|_|\\*|/");
+				String[] str = currentLine.split("\\t|,|;|\\.|\\?|!|-|:|@|\\[|\\]|\\(|\\)|\\{|\\}|_|\\*|/");
 				RowNum++;
 				XSSFRow currentRow = sheet.createRow(RowNum);
 				for (int i = 0; i < str.length; i++) {

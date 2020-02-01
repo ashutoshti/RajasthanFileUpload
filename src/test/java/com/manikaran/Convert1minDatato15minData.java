@@ -42,7 +42,7 @@ public class Convert1minDatato15minData {
         String st, stScada;
         try {
             while ((st = br.readLine()) != null) {
-                String str[] = st.split(",");
+                String[] str = st.split(",");
                 masterHashMap.put(str[0], Integer.valueOf(str[1]));
             }
         } catch (NumberFormatException e1) {
@@ -62,7 +62,7 @@ public class Convert1minDatato15minData {
                 while ((stScada = brScada.readLine()) != null) {
                     // System.out.println(stScada);
                     i++;
-                    String str[] = stScada.split(",");// Seprate your main CSV file with special char
+                    String[] str = stScada.split(",");// Seprate your main CSV file with special char
                     String timeSc = str[0];
                     Float scada = Float.valueOf(str[k]);
                     if (masterHashMap.containsKey(timeSc.trim())) {
